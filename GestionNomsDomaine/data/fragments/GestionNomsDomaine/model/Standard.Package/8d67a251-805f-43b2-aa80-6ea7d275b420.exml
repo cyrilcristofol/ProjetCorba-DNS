@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gestionnomsdomaine" version="4">
+  <OBJECT>
+    <ID name="gestionnomsdomaine" mc="Standard.Package" uid="8d67a251-805f-43b2-aa80-6ea7d275b420"/>
+    <PID name="GestionNomsDomaine" mc="Standard.Project" uid="122c079f-e355-421a-926a-41130a1c0856"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gestionnomsdomaine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Client" mc="Standard.Actor" uid="56f87407-69b2-46da-bf1a-b10ed1790c90"/>
+        <COMPID name="Louer un nom de domaine" mc="Standard.UseCase" uid="9d862f0b-cf3d-439b-bb7c-40f7fdfb1986"/>
+        <COMPID name="Transférer le nom de domaine" mc="Standard.UseCase" uid="9e084f08-0d8f-4c86-8f36-11e2f0612f75"/>
+        <COMPID name="Effectuer une résolution DNS" mc="Standard.UseCase" uid="a38577a8-6168-411a-bd70-ebb9fc4f750a"/>
+        <COMPID name="Lancer un whois" mc="Standard.UseCase" uid="7ce7312b-858a-44a7-8673-745e8dd7a547"/>
+        <COMPID name="Propriétaire" mc="Standard.Actor" uid="f5bae767-c566-4a09-a2b8-d444dae8f100"/>
+        <COMPID name="Configurer les paramètres d'un domaine" mc="Standard.UseCase" uid="3a773e80-7884-4d22-a74a-add4da0260f5"/>
+        <COMPID name="Changer de registrar" mc="Standard.UseCase" uid="5461f063-911f-42bc-8ae3-a9cc3b5bcccb"/>
+        <COMPID name="Renouveler la location d'un nom de domaine" mc="Standard.UseCase" uid="e6dd2ab2-ca87-4813-99e1-8d3fa9cb8266"/>
+        <COMPID name="Registrar" mc="Standard.Actor" uid="e4052366-a4a9-4ebe-8c9f-d9e4ba5213a1"/>
+        <COMPID name="Banque" mc="Standard.Actor" uid="11972c50-1f44-4844-b6fc-50fca73575b5"/>
+        <COMPID name="Délégataire" mc="Standard.Actor" uid="9d136e32-3a61-46e9-829a-e50d907af865"/>
+        <COMPID name="Commercialiser" mc="Standard.UseCase" uid="55ffc466-074e-4379-aa50-31ef7f8213ad"/>
+        <COMPID name="Payer" mc="Standard.UseCase" uid="beda76d7-bd54-4743-9b58-1edbb4bf223a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="gestionnomsdomaine Use Case diagram" mc="Standard.UseCaseDiagram" uid="37dbc951-c625-4ede-a7a2-0f4acae8806a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
