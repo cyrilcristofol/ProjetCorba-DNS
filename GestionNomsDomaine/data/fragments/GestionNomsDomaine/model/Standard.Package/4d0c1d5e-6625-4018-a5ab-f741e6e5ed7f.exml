@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrammes de séquence" version="4">
+  <OBJECT>
+    <ID name="Diagrammes de séquence" mc="Standard.Package" uid="4d0c1d5e-6625-4018-a5ab-f741e6e5ed7f"/>
+    <PID name="gestionnomsdomaine" mc="Standard.Package" uid="8d67a251-805f-43b2-aa80-6ea7d275b420"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrammes de séquence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Résolution DNS" mc="Standard.Package" uid="75edc05e-7def-49dc-a0ef-eca96741bccf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
