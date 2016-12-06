@@ -12,6 +12,10 @@
       <ATT name="Name"><![CDATA[Résolution DNS]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="b415b76c-cdb3-418a-9997-c4c983ecb76c"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>
