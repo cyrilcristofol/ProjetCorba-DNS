@@ -29,6 +29,7 @@
         <COMPID name="Commercialiser" mc="Standard.UseCase" uid="55ffc466-074e-4379-aa50-31ef7f8213ad"/>
         <COMPID name="ServeurDNS" mc="Standard.Actor" uid="5db5630b-0743-4c83-8135-a999788b1012"/>
         <COMPID name="Diagrammes de séquence" mc="Standard.Package" uid="4d0c1d5e-6625-4018-a5ab-f741e6e5ed7f"/>
+        <COMPID name="Diagramme de composants" mc="Standard.Package" uid="b6c1487f-368c-4cb8-8cca-37d836735f65"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="gestionnomsdomaine Use Case diagram" mc="Standard.UseCaseDiagram" uid="37dbc951-c625-4ede-a7a2-0f4acae8806a"/>
