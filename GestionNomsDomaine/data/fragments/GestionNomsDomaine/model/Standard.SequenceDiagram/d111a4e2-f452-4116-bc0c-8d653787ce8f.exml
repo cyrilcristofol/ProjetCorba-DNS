@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Louer un DN" version="4">
+  <OBJECT>
+    <ID name="Louer un DN" mc="Standard.SequenceDiagram" uid="d111a4e2-f452-4116-bc0c-8d653787ce8f"/>
+    <PID name="Interaction" mc="Standard.Interaction" uid="680ea189-4287-4268-aaa3-1882d8423611"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">11</ATT>
+      <ATT name="UiData"><![CDATA[eJztW9FuozgU/RWUdwgGEoiU6WiaVN1qMm3V7q60T5XBl4Qp4K5xJsnfrwlJNqUdQ0NCg8Rbauzra/uca99jd/h1GYXKL2BJQOMvHaTpHeXrxfDO/QkeVwIiijoKX73Alw5lUy2iBMKAaiTAU4YjDUjAKdMS+HcOsQcahBBBzJNdybbidfS4KRlnJR0lwj8pe9p1rXcuhveMvgDjKyXGkegxxCs652PMsfj2Nw7nsHElnodhp3sx7G4bvGn6yFchdF4NxJANJEnrJ5pHGWhZ2xL+jXDiYQJk29nVkj+AX7KXW2Fi01KBJR+7N8LH9c/0BwEfz0OeG2Q3G45s4AxCzIEIP3Jz9iMtUn6lJen04JhgRrTcqigEIYQtMFTf6hmqhVBfdT3dUx3S75m2Y3vg+PKZD3HCv8d0EU+wC2HOiUfOgnjauZjQOTBlHivj22F3XUE6JhrCTTyi0QtNAi5W4zdWS5gazYKQMEgtTIKEvwKIeRDSw8AXFWMQEJ9sfn4Y23tOWNWc2LpwH2Jv/W1E44QzHMS8jFfL3MzexBymwHa4GQzki78qaI9MQ25gERA+KzDSL3BiBsF0xguMqKgAxtu1LMOi7awruge67fsDFdAgpY8lmIMHjur4pNfXHVeHHvk4p98JZr2TB7M0kmVh89QxqMrsHRJ82PmEnH41ts9ArBjbizx/rAsE57lgfIr2CptsnjHOh3dcuyxIhanlqjJSey1SJUjNsFIRr85J8Fr/WXBQLzLtFpnVYmgyo4unwHtj4pKKPnC8mw/O5iAf3drSM6wWlJECYz4OkyJrHHvPTwkHBvQ4roXvTHoJUztE7WduupStW3Z6NIporK07zmptPgmejrM05EdaepWVZqionbFImoe2lG0sZcuw7LM4W9a3qqTtZhttEZ+lCkbx7utSstrbey/Fn0c9IBakdu+RWppytyfEekmd4uOQ86EEvSWBXVH0OI7ygqQ59adLL5ahV9NeCpqXUV4GeQIdorxYeoEnh0kvtomw6/axqnsIqZbpYxUPXEdFPQMbOoBp6fgo0guSJu1N1V4OmL6D4hU6H/EFSfWJxqsvSJqsH39zFbxo0XpqAQZJlYsGKTCGNDk9ATrzBGrR2YowNYgwhvz+vFkijFH6Dr0lbcNI28owZbNVo+I7gfOTYQxp/t2eFOum9acJMUZFCeQ4QoxR8Vb8xEKMfQZCjJO/njgjIcbSken304djjmupVt8z1YGPHZX0bc8eeA7YxDyKEGOUfl/QJCHmgOk7KGAZ5yPEGKd5VnAuQoxR82sDo8a7yyai9ShCjCm/XG+OEGPWfLFu5F9vtuhshZgahBhTfnveLCHGrPnivCVtK8ScnRBjVnw2cH5CjFn6WX97UqyD1vUKMW8/5fqZBPFzIukkV/1yOmZ4IQYywSsBy9dIk2ssW66QzIAgTWoi3QL3Ldaz7X2s1af//1uQD8lbMI2vtcm3f64eni6/jb5fP9z9dTs+NrZ+a2V/2f5H0D4e5G8hWjycEA9/3t3XFmT+AxZa8rs=]]></ATT>
+      <ATT name="Name"><![CDATA[Louer un DN]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="r1" mc="Standard.Lifeline" uid="731abb6a-0c11-43fa-a9b8-152a20ee340a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="r2" mc="Standard.Lifeline" uid="4013f616-b8b4-46c3-9fa8-d67c79c8e7d3"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8f2260a8-723a-40b3-8a15-04889236b951"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
