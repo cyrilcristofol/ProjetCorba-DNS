@@ -34,11 +34,6 @@
                       <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="929e1b5d-a81a-423c-a899-4608925c0dcc"/>
                     </REFOBJ>
                   </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="resolvDomainName" mc="Standard.Operation" uid="9b4d3530-7a9d-430e-b0cc-8391121d8589"/>
-                    </REFOBJ>
-                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>

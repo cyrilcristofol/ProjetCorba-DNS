@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Configurer les paramètres d'un domaine" version="4">
+  <OBJECT>
+    <ID name="Configurer les paramètres d'un domaine" mc="Standard.Package" uid="bdec5a18-ec38-49a8-8e21-cf0d87430d8c"/>
+    <PID name="Diagrammes de séquence" mc="Standard.Package" uid="4d0c1d5e-6625-4018-a5ab-f741e6e5ed7f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Configurer les paramètres d'un domaine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="9497559d-0b68-424c-8812-2f7dcce5dddb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
