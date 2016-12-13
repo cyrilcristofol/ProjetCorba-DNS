@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Résolution DNS" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Résolution DNS et WhoIs" version="4">
   <OBJECT>
-    <ID name="Résolution DNS" mc="Standard.Package" uid="75edc05e-7def-49dc-a0ef-eca96741bccf"/>
+    <ID name="Résolution DNS et WhoIs" mc="Standard.Package" uid="75edc05e-7def-49dc-a0ef-eca96741bccf"/>
     <PID name="Diagrammes de séquence" mc="Standard.Package" uid="4d0c1d5e-6625-4018-a5ab-f741e6e5ed7f"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Résolution DNS]]></ATT>
+      <ATT name="Name"><![CDATA[Résolution DNS et WhoIs]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

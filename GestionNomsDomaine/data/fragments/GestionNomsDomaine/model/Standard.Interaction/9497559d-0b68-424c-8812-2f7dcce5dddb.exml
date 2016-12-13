@@ -94,7 +94,7 @@
               <OBJECT>
                 <ID name="addP" mc="Standard.Message" uid="aad81f0d-5b83-4f52-95f2-d8891f76741d"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"><![CDATA[DomaineName, ParameterType, ParameterValue]]></ATT>
+                  <ATT name="Argument"><![CDATA[DomainName, ParameterType, ParameterValue]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[addP]]></ATT>
@@ -222,7 +222,7 @@
               <OBJECT>
                 <ID name="addP" mc="Standard.Message" uid="f87bd57c-6f56-4ba7-8770-5be262f4d3cb"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"><![CDATA[DomaineName, ParameterType, ParameterValue]]></ATT>
+                  <ATT name="Argument"><![CDATA[DomainName, ParameterType, ParameterValue]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[addP]]></ATT>
@@ -350,7 +350,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.Message" uid="49b7aea4-87dd-4c9c-8c72-5b380aa932be"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"><![CDATA[DomaineName, ParameterType, ParameterValue]]></ATT>
+                  <ATT name="Argument"><![CDATA[DomainName, ParameterType, ParameterValue]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"></ATT>
@@ -478,7 +478,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.Message" uid="20adac1a-5a7f-4ae9-870d-f7b292196f60"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"><![CDATA[DomaineName]]></ATT>
+                  <ATT name="Argument"><![CDATA[DomainName]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"></ATT>
