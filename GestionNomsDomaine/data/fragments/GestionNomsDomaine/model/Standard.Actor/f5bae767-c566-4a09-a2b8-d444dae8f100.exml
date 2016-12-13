@@ -155,7 +155,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Transférer le nom de domaine" mc="Standard.UseCase" uid="9e084f08-0d8f-4c86-8f36-11e2f0612f75"/>
+              <ID name="Transférer propriétaire nom de domaine" mc="Standard.UseCase" uid="9e084f08-0d8f-4c86-8f36-11e2f0612f75"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

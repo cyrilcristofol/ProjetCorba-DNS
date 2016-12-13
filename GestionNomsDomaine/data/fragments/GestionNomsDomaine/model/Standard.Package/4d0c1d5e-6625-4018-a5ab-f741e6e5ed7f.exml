@@ -14,9 +14,10 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Résolution DNS" mc="Standard.Package" uid="75edc05e-7def-49dc-a0ef-eca96741bccf"/>
+        <COMPID name="Résolution DNS et WhoIs" mc="Standard.Package" uid="75edc05e-7def-49dc-a0ef-eca96741bccf"/>
         <COMPID name="Louer un nom de domaine" mc="Standard.Package" uid="2ff74715-4ea1-476c-860a-9c012749a3d8"/>
         <COMPID name="Configurer les paramètres d'un domaine" mc="Standard.Package" uid="bdec5a18-ec38-49a8-8e21-cf0d87430d8c"/>
+        <COMPID name="Changer de registrar" mc="Standard.Package" uid="86856502-8471-4a6b-b0b5-862f8485013c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

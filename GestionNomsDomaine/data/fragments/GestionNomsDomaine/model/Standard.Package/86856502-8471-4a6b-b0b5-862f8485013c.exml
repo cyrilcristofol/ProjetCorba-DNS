@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Changer de registrar" version="4">
+  <OBJECT>
+    <ID name="Changer de registrar" mc="Standard.Package" uid="86856502-8471-4a6b-b0b5-862f8485013c"/>
+    <PID name="Diagrammes de séquence" mc="Standard.Package" uid="4d0c1d5e-6625-4018-a5ab-f741e6e5ed7f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Changer de registrar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="87f6ed3f-fd1a-4bea-abd7-12749608a983"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
