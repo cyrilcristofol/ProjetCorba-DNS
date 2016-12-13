@@ -177,9 +177,6 @@
           <ID name="DomainNameRentingRequest" mc="Standard.Operation" uid="25c43e5c-5118-471d-bc4c-9fec2feac3d7"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="ModifyParameters(DomaineName, Parameter)" mc="Standard.Operation" uid="4d78c720-42a2-4c64-a166-d495c6a393c3"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="DelDomainName" mc="Standard.Operation" uid="7d328a2b-c623-4ac1-bf26-9f383aea6f6d"/>
         </REFOBJ>
         <REFOBJ>
@@ -189,19 +186,10 @@
           <ID name="AddParameter" mc="Standard.Operation" uid="7dc1ac94-2ea5-423d-9873-7434e70b6b23"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="AddParameters(DomaineName, Parameter)" mc="Standard.Operation" uid="8b0d399e-06e7-4ddc-b884-740f20d05c24"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="InternalCacheDomainNameResolution" mc="Standard.Operation" uid="e493b6a0-f974-450e-8c2c-974511d6dd06"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="AddParameter(DomaineName, ParameterType, ParameterValue)" mc="Standard.Operation" uid="a137e4aa-fd0d-41a4-a97e-a973e2dae90a"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="ModifyParameter" mc="Standard.Operation" uid="8d305d1f-898b-43d7-a49d-7c6f73133638"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="GetDomaineParameters(DomaineName)" mc="Standard.Operation" uid="aa12556d-ec1a-479e-9b88-e82081052367"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="" mc="Standard.AssociationEnd" uid="67680069-2422-431e-bf79-70a87d724ca5"/>
