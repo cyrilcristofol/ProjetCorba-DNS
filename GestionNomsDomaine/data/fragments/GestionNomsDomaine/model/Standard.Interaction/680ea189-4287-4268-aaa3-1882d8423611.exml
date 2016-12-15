@@ -953,7 +953,7 @@
                   </LINK>
                   <LINK relation="Invoked">
                     <REFOBJ>
-                      <ID name="DellDomainName" mc="Standard.Operation" uid="7d328a2b-c623-4ac1-bf26-9f383aea6f6d"/>
+                      <ID name="DelDomainName" mc="Standard.Operation" uid="7d328a2b-c623-4ac1-bf26-9f383aea6f6d"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -1097,46 +1097,6 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Started">
-              <REFOBJ>
-                <ID name="" mc="Standard.ExecutionSpecification" uid="2cefd6c4-cfcb-4333-b2a5-0a13ebcad758"/>
-              </REFOBJ>
-            </LINK>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="703eab36-2f6d-4028-9767-14712e631683"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">959</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionSpecification" uid="2cefd6c4-cfcb-4333-b2a5-0a13ebcad758"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">939</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Finish">
-              <REFOBJ>
-                <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="703eab36-2f6d-4028-9767-14712e631683"/>
-              </REFOBJ>
-            </LINK>
             <LINK relation="Covered">
               <REFOBJ>
                 <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
@@ -1442,46 +1402,6 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Started">
-              <REFOBJ>
-                <ID name="" mc="Standard.ExecutionSpecification" uid="6789a589-deba-485b-9b16-1a50f4680531"/>
-              </REFOBJ>
-            </LINK>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ad296056-a5a7-4cb9-b8db-400e371bfae2"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">345</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionSpecification" uid="6789a589-deba-485b-9b16-1a50f4680531"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">325</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Finish">
-              <REFOBJ>
-                <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ad296056-a5a7-4cb9-b8db-400e371bfae2"/>
-              </REFOBJ>
-            </LINK>
             <LINK relation="Covered">
               <REFOBJ>
                 <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
