@@ -1301,12 +1301,12 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="ClientUID" mc="Standard.Message" uid="8eb3cd72-9b8e-4625-b691-99c7a51dc25b"/>
+                <ID name="ClientUID, Invoice" mc="Standard.Message" uid="8eb3cd72-9b8e-4625-b691-99c7a51dc25b"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Name"><![CDATA[ClientUID]]></ATT>
+                  <ATT name="Name"><![CDATA[ClientUID, Invoice]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -1405,6 +1405,55 @@
             <LINK relation="Covered">
               <REFOBJ>
                 <ID name="r" mc="Standard.Lifeline" uid="0ce07ff9-e192-414c-8a98-8fd5608b0e5d"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="34d93730-e0fb-4f99-9613-35f0d88480c2"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">1137</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="CommissionAmountTransfered" mc="Standard.Message" uid="23340bf0-d978-489b-b8c5-a8433149cf92"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[CommissionAmountTransfered]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="e9faf819-221b-45db-9a7c-6d66fc7298cc"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Standard.Lifeline" uid="731abb6a-0c11-43fa-a9b8-152a20ee340a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="e9faf819-221b-45db-9a7c-6d66fc7298cc"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">1138</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r3" mc="Standard.Lifeline" uid="b02b54b8-bf65-4403-82cf-264153fdc36a"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>

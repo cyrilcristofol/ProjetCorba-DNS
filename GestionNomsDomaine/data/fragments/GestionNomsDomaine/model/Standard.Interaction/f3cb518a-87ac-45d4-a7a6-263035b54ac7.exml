@@ -72,19 +72,19 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="afa87037-5006-41f0-8086-b6e6a8a13818"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">1960</ATT>
+            <ATT name="LineNumber">1954</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="A voir" mc="Standard.Message" uid="2850478f-7b9d-4680-b7b2-b19567afc520"/>
+                <ID name="TransferDomainRequestDone" mc="Standard.Message" uid="2850478f-7b9d-4680-b7b2-b19567afc520"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Name"><![CDATA[A voir]]></ATT>
+                  <ATT name="Name"><![CDATA[TransferDomainRequestDone]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -578,7 +578,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="9b03eca8-5722-4802-ab5b-365bb106986a"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">1952</ATT>
+            <ATT name="LineNumber">1994</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -1005,7 +1005,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.Message" uid="4a079fc4-701a-4482-9446-e189d0995ffa"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"><![CDATA[SecretNumber]]></ATT>
+                  <ATT name="Argument"><![CDATA[SecretNumber, DomainName]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"></ATT>
@@ -1920,7 +1920,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="9a03d708-ac8b-44f4-a1bf-12ea33521c55"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">1960</ATT>
+            <ATT name="LineNumber">1954</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -1935,7 +1935,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="766d5185-d9aa-4a60-b72a-1bb489074edc"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">1952</ATT>
+            <ATT name="LineNumber">1994</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -1955,7 +1955,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="05ecb537-8595-4f1e-8fce-9faaceee3869"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">1972</ATT>
+            <ATT name="LineNumber">2014</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -1970,7 +1970,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionSpecification" uid="d13e1b95-65ad-44e1-8670-f6faf5f3a5ae"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">1952</ATT>
+            <ATT name="LineNumber">1994</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -1983,6 +1983,55 @@
             <LINK relation="Covered">
               <REFOBJ>
                 <ID name="r" mc="Standard.Lifeline" uid="38258b27-8873-448d-9bcf-acef7278abff"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="8d91257f-4e48-4485-9f1d-395e9e84027e"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">1924</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="ChangeOwnerRequestDone" mc="Standard.Message" uid="60aaea04-eee2-4fe0-a362-17d0c05520ab"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[ChangeOwnerRequestDone]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="6bdac18f-e71a-4f7e-a199-16b1166daaba"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r3" mc="Standard.Lifeline" uid="cdf95467-7ac2-422e-b69c-d97b35511cda"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="6bdac18f-e71a-4f7e-a199-16b1166daaba"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">1924</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Standard.Lifeline" uid="b7976fa6-9df6-44ab-a477-ee644fbf4fb5"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
