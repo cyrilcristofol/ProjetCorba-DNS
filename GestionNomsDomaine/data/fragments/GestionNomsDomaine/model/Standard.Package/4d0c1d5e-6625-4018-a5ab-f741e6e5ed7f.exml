@@ -18,6 +18,7 @@
         <COMPID name="Louer un nom de domaine" mc="Standard.Package" uid="2ff74715-4ea1-476c-860a-9c012749a3d8"/>
         <COMPID name="Configurer les paramètres d'un domaine" mc="Standard.Package" uid="bdec5a18-ec38-49a8-8e21-cf0d87430d8c"/>
         <COMPID name="Changer de registrar" mc="Standard.Package" uid="86856502-8471-4a6b-b0b5-862f8485013c"/>
+        <COMPID name="Renouveller un nom de domaine" mc="Standard.Package" uid="3bc48c9e-b5eb-454e-965b-f44f18866b0a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Renouveller un nom de domaine" version="4">
+  <OBJECT>
+    <ID name="Renouveller un nom de domaine" mc="Standard.Package" uid="3bc48c9e-b5eb-454e-965b-f44f18866b0a"/>
+    <PID name="Diagrammes de séquence" mc="Standard.Package" uid="4d0c1d5e-6625-4018-a5ab-f741e6e5ed7f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Renouveller un nom de domaine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="8d296a27-2295-4ba1-878f-bcc6aa1c6856"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
