@@ -152,7 +152,10 @@ module ProjetCorbaDNS{
 	};
 	//
 	module Proprietaire{
-		
+		interface ProprietaireToClient{
+			// demande de transfert d'un nom de domaine
+			boolean TransfertDomainRequest(in DomainName DomainName, in long Price);
+		};
 		interface ProprietaireforRegistrar {
 			// notifie le client qu'un nom de domaine est sur le point d'expirer
 			oneway void DomainNameExpiration(in DomainName DomainName, in Date DateExpiration);
