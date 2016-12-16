@@ -16,6 +16,10 @@
       <COMP relation="OwnedElement">
         <COMPID name="ServeurDNS" mc="Standard.Component" uid="240c14d7-a2de-48fb-9365-3254db98ff4a"/>
         <COMPID name="Client" mc="Standard.Component" uid="ada4369b-cb9c-4455-975f-067fdbd21a3b"/>
+        <COMPID name="Délégataire" mc="Standard.Component" uid="ee2ed14b-dbaf-4c49-8783-c087fe964a09"/>
+        <COMPID name="Banque" mc="Standard.Component" uid="0d2b9604-3868-450a-a51c-b21f821dd650"/>
+        <COMPID name="Propriétaire" mc="Standard.Component" uid="ee58eb47-abbf-4cf8-9174-953974946dd5"/>
+        <COMPID name="Registrar" mc="Standard.Component" uid="6ac783ef-f984-4ebc-8e38-11b2c209faf6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de composants Class diagram" mc="Standard.ClassDiagram" uid="c0e073db-5098-4a10-b2cc-f8cd976a5a4a"/>

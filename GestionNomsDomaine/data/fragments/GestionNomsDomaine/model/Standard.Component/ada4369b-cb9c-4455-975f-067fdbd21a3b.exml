@@ -26,7 +26,7 @@
             <ATT name="IsConstant">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
+            <ATT name="Value"><![CDATA[ded]]></ATT>
             <ATT name="Name"><![CDATA[Port]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -40,10 +40,21 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="b3ca26ec-5897-49d0-9cc3-eb249bc7c927"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
             </COMP>
             <COMP relation="OwnedNaryEnd">
               <REFOBJ>
                 <ID name="" mc="Standard.NaryConnectorEnd" uid="f5efe925-36b2-4db8-8979-fd9a6142c69c"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="893e509e-acd5-40ea-a753-6f1faee844f9"/>
               </REFOBJ>
             </COMP>
           </DEPENDENCIES>
