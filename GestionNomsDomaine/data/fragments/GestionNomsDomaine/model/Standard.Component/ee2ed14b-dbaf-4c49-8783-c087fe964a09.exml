@@ -40,10 +40,18 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="0770d99b-1386-48b0-9bb3-3058c9bd5737"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
             </COMP>
             <COMP relation="OwnedNaryEnd">
               <OBJECT>
-                <ID name="" mc="Standard.NaryConnectorEnd" uid="e554921f-2aaa-4132-a270-f4d50b3e0191"/>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="16e56665-bdd5-47d9-ac91-9eabdd027d7c"/>
                 <ATTRIBUTES>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
@@ -55,7 +63,7 @@
                 <DEPENDENCIES>
                   <COMP relation="NaryLink">
                     <OBJECT>
-                      <ID name="" mc="Standard.NaryConnector" uid="8f0b7540-f5ab-43eb-bc13-d8d2cfd7df31"/>
+                      <ID name="" mc="Standard.NaryConnector" uid="46bbd4b9-3524-4d06-a739-1c9b46927104"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -63,7 +71,7 @@
                       <DEPENDENCIES>
                         <COMP relation="NaryLinkEnd">
                           <OBJECT>
-                            <ID name="" mc="Standard.NaryConnectorEnd" uid="9a763551-e8c8-444d-8c6a-27caf4c2844e"/>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="898b2867-aaa7-4a92-9b8d-bac7c875f436"/>
                             <ATTRIBUTES>
                               <ATT name="IsOrdered">false</ATT>
                               <ATT name="IsUnique">false</ATT>
@@ -74,7 +82,7 @@
                             </ATTRIBUTES>
                             <DEPENDENCIES>
                               <COMP relation="NaryLink">
-                                <COMPID name="" mc="Standard.NaryConnector" uid="8f0b7540-f5ab-43eb-bc13-d8d2cfd7df31"/>
+                                <COMPID name="" mc="Standard.NaryConnector" uid="46bbd4b9-3524-4d06-a739-1c9b46927104"/>
                               </COMP>
                               <LINK relation="Consumer">
                                 <REFOBJ>
@@ -83,7 +91,7 @@
                               </LINK>
                             </DEPENDENCIES>
                           </OBJECT>
-                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="e554921f-2aaa-4132-a270-f4d50b3e0191"/>
+                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="16e56665-bdd5-47d9-ac91-9eabdd027d7c"/>
                         </COMP>
                       </DEPENDENCIES>
                     </OBJECT>
@@ -91,6 +99,59 @@
                   <LINK relation="Provider">
                     <REFOBJ>
                       <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="5cbe14dd-8e50-4e4a-89b8-31aa55148fbb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="28311b0c-cde2-4a68-972f-6a3c59fdaed6"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnector" uid="4a641a86-1e25-4e4f-b169-91723877a35e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="d52098bb-50ab-4ad4-a28f-6da860392761"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="Standard.NaryConnector" uid="4a641a86-1e25-4e4f-b169-91723877a35e"/>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="1d018955-9ed9-40a9-9558-cd2f3c06e908"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="28311b0c-cde2-4a68-972f-6a3c59fdaed6"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Provider">
+                    <REFOBJ>
+                      <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="0770d99b-1386-48b0-9bb3-3058c9bd5737"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>

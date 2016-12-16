@@ -43,7 +43,7 @@
             </COMP>
             <COMP relation="OwnedNaryEnd">
               <OBJECT>
-                <ID name="" mc="Standard.NaryConnectorEnd" uid="a80ebcfa-1aac-498c-acc1-72f4935fe050"/>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="47bdf12b-339d-45ca-bdf0-de5976f21905"/>
                 <ATTRIBUTES>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
@@ -55,7 +55,7 @@
                 <DEPENDENCIES>
                   <COMP relation="NaryLink">
                     <OBJECT>
-                      <ID name="" mc="Standard.NaryConnector" uid="0ca60cf6-8cdf-4446-b5ab-22da925e6df5"/>
+                      <ID name="" mc="Standard.NaryConnector" uid="ea283465-30e0-47eb-8faf-9a18665e0013"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -63,7 +63,7 @@
                       <DEPENDENCIES>
                         <COMP relation="NaryLinkEnd">
                           <OBJECT>
-                            <ID name="" mc="Standard.NaryConnectorEnd" uid="ee3893e2-aaf8-464c-a0b2-7e25c904552b"/>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="f84eaba5-6a17-4337-97d3-a04cadca98ce"/>
                             <ATTRIBUTES>
                               <ATT name="IsOrdered">false</ATT>
                               <ATT name="IsUnique">false</ATT>
@@ -74,7 +74,7 @@
                             </ATTRIBUTES>
                             <DEPENDENCIES>
                               <COMP relation="NaryLink">
-                                <COMPID name="" mc="Standard.NaryConnector" uid="0ca60cf6-8cdf-4446-b5ab-22da925e6df5"/>
+                                <COMPID name="" mc="Standard.NaryConnector" uid="ea283465-30e0-47eb-8faf-9a18665e0013"/>
                               </COMP>
                               <LINK relation="Consumer">
                                 <REFOBJ>
@@ -83,7 +83,7 @@
                               </LINK>
                             </DEPENDENCIES>
                           </OBJECT>
-                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="a80ebcfa-1aac-498c-acc1-72f4935fe050"/>
+                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="47bdf12b-339d-45ca-bdf0-de5976f21905"/>
                         </COMP>
                       </DEPENDENCIES>
                     </OBJECT>
