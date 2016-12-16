@@ -1,3 +1,7 @@
+/*
+	M2 STRI 2016 - PROJET OMG CORBA
+	CRISTOFOL - EL JAMMAL - TEIKITUHAAHAA
+*/
 module ProjetCorbaDNS{
 	
 	//typedef simple
@@ -11,9 +15,7 @@ module ProjetCorbaDNS{
 	
 	typedef string ParameterType;
 	typedef string ParameterValue;
-	
-	
-	
+
 	//struct
 
 	//
@@ -50,15 +52,11 @@ module ProjetCorbaDNS{
 		string ParameterType;
 		string ParameterValue;
 	};
-	// typedef pour le module Registrar
+	// 
 	typedef sequence<RegistrarClass> 	RegistrarList;
-	
 	//
 	module Registrar {
 
-		/**
-		 * Méthodes de location de domaine pour un client
-		 */
 		interface RegistrarForClient {
 			// Louer un nom de domaine
 			// demander à un registrar si un nom de domaine est libre pour location
@@ -69,11 +67,12 @@ module ProjetCorbaDNS{
 		};
 		
 		interface RegistrarForProprietaire {
-			//
 			
+			// Configurer les paramètres d'un nom de domaine
 			boolean AddParameter(in ParameterType ParameterType, in DomainName DomainName, in ParameterValue ParameterValue);
 			boolean ModifyParameter(in DomainName DomainName, in ParameterType ParameterType, in ParameterValue ParameterValue);
 			DomainNameParameters GetDomainParameters(in DomainName DomainName);
+			// transferer un nom de domaine vers un nouveau propriétaire
 			boolean DomainNameRenewRequest(in DomainName DomainNameToRenew);
 			boolean renewDomain(in DomainName DomainName, in UserInformations UserInformations);
 			boolean ChangeOwnerRequest(in DomainName DomainName, in UserInformations NewOwner);
@@ -102,9 +101,9 @@ module ProjetCorbaDNS{
 		};
 		//
 		interface DelegataireForDNSServ{
-			//
+			// résolution DNS
 			IPAddress resolVDomainName(in DomainName DomainName);
-			//
+			// résolution WhoIS
 			DomainName WhoIs(in IPAddress IPAddress);
 		};
 	};
@@ -151,8 +150,6 @@ module ProjetCorbaDNS{
 		    
 		};
 	};
-	//
-	// pas de module Client nécessaire
 	//
 	module Proprietaire{
 		
