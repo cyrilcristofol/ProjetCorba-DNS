@@ -489,12 +489,12 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="REQUEST_REFUSED" mc="Standard.Message" uid="fc96efec-30c9-403c-9442-403c27fdec0d"/>
+                <ID name="REQUEST_REFUSED = NULL" mc="Standard.Message" uid="fc96efec-30c9-403c-9442-403c27fdec0d"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Name"><![CDATA[REQUEST_REFUSED]]></ATT>
+                  <ATT name="Name"><![CDATA[REQUEST_REFUSED = NULL]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -1510,12 +1510,12 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="CHANGE_REGIRSTRAR_ERROR" mc="Standard.Message" uid="5c09e8c3-a540-427d-b2ae-33d4cb7ae854"/>
+                <ID name="CHANGE_REGIRSTRAR_ERROR = NULL" mc="Standard.Message" uid="5c09e8c3-a540-427d-b2ae-33d4cb7ae854"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Name"><![CDATA[CHANGE_REGIRSTRAR_ERROR]]></ATT>
+                  <ATT name="Name"><![CDATA[CHANGE_REGIRSTRAR_ERROR = NULL]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

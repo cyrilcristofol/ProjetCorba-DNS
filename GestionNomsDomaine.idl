@@ -1,0 +1,166 @@
+module ProjetCorbaDNS{
+	
+	//typedef simple
+	typedef string DomainName;
+	typedef string IPAddress;
+	typedef string Date;
+	typedef string ClientUID;
+	typedef string DNTransactionID;
+	typedef string TransfertStatus;
+	typedef string TransfertID;
+	
+	typedef string ParameterType;
+	typedef string ParameterValue;
+	
+	
+	
+	//struct
+
+	//
+	struct UserInformations{
+		string nom;
+		string prenom;
+		long   age;		// int en java
+		string adresse;
+		string mail;
+		string password;
+		string RIB;
+	};
+	//
+	struct DomainNameInformations{
+		DomainName domainName;
+		IPAddress  IPAddr;
+		ClientUID clientUID;
+		Date ExpirationDate;
+	};
+	//
+	struct ClientID{
+		UserInformations userInformations;
+		ClientUID clientUID;
+	};
+	//
+	struct RegistrarClass{
+		string Nom;
+		string Contact;
+		string RIB;
+	};
+	// 
+	struct DomainNameParameters{
+		// non-défini
+		string ParameterType;
+		string ParameterValue;
+	};
+	// typedef pour le module Registrar
+	typedef sequence<RegistrarClass> 	RegistrarList;
+	
+	//
+	module Registrar {
+
+		/**
+		 * Méthodes de location de domaine pour un client
+		 */
+		interface RegistrarForClient {
+			// Louer un nom de domaine
+			// demander à un registrar si un nom de domaine est libre pour location
+			boolean DomainNameRentingRequest(in DomainName DomainNameToRent);
+			// demander à un registrar de louer un nom de domaine
+			ClientID rentDomain(in DomainName DomainNameToRent, in UserInformations userInformations);
+								   
+		};
+		
+		interface RegistrarForProprietaire {
+			//
+			
+			boolean AddParameter(in ParameterType ParameterType, in DomainName DomainName, in ParameterValue ParameterValue);
+			boolean ModifyParameter(in DomainName DomainName, in ParameterType ParameterType, in ParameterValue ParameterValue);
+			DomainNameParameters GetDomainParameters(in DomainName DomainName);
+			boolean DomainNameRenewRequest(in DomainName DomainNameToRenew);
+			boolean renewDomain(in DomainName DomainName, in UserInformations UserInformations);
+			boolean ChangeOwnerRequest(in DomainName DomainName, in UserInformations NewOwner);
+			
+			// changer de registrar
+			UserInformations changeRegistrarRequest(in DomainNameInformations DomainNameInformations, in UserInformations UserInformations);
+			DNTransactionID changeRegistrarTransactionRequest(in DomainNameInformations DomainNameInformations);
+			boolean changeRegistrarTransactionBegin(in DNTransactionID DNTransactionID);
+			boolean changeRegistrarTransactionCommit(in DNTransactionID DNTransactionID);
+			boolean changeRegistrarTransactionRollback(in DNTransactionID DNTransactionID);
+			UserInformations changeRegistrarValidateTransaction(in DNTransactionID DNTransactionID);
+		};
+		
+	};
+	//
+	module Delegataire {
+		//
+		interface DelegataireForProprietaire {
+			// méthode pour obtenir la liste des registrar pour un nom de domaine donné pour une location
+			RegistrarList DomainNameRentingRequest(in DomainName DomainName);   
+		};
+		//
+		interface DelegataireForClient {
+			// méthode pour obtenir la liste des registrar pour un nom de domaine donné pour un changement de registrar
+			RegistrarList DomainNameChangeRegistrarRequest(in DomainName DomainName); 
+		};
+		//
+		interface DelegataireForDNSServ{
+			//
+			IPAddress resolVDomainName(in DomainName DomainName);
+			//
+			DomainName WhoIs(in IPAddress IPAddress);
+		};
+	};
+	//
+	module ServeurDNS{
+		//
+		interface DNSresolution {
+			
+			//
+			IPAddress resolVDomainName(in DomainName DomainName);
+			//
+			DomainName WhoIs(in IPAddress IPAddress);
+		};
+		//
+		interface DNSServForRegistrar {
+			// vérifier l'état d'un nom de domaine (libre ou non)
+			boolean IsDomainNameFree(in DomainName DomainName);
+			// Ajout et supression de nom de domaine
+			boolean AddDomainName(in DomainNameInformations DomainNameInformations);
+			boolean DelDomainName(in DomainNameInformations DomainNameInformations);
+			// Vérification de la date d'expiration
+			Date CheckDomainExpiryDate(in DomainName DomainNameToRenew);
+			// Renouvellement d'un nom de domaine
+			boolean ExtendDomainNameRent(in DomainNameInformations DomainNameInformations, in long NumberOfYears);
+			// Changement de propriétaire d'un nom de domaine
+			boolean ApplyOwnerChangement(in UserInformations NewOwner, in UserInformations OldOwner);
+
+		   
+		};
+	};
+	//
+	module Banque{
+
+		/* Interface utilisé par les registrar pour demander un transfert d'argent
+		lors d'un location, d'un renouvellement de domaine, ou bien d'un changement
+		de Registrar par un propriétaire d'un DN. 
+		
+		*/
+		interface BanqueForPublic {
+			// méthode permettant d'ordonner un Transfert d'argent
+			TransfertID		TransferMoney(in string TransfertFromRIB, in string TransfertToRIB, in long SUM);
+			// méthode permettant de vérifier le status d'un transfert
+			TransfertStatus CheckTransfertStatus(in TransfertID transfertID);
+		    
+		};
+	};
+	//
+	// pas de module Client nécessaire
+	//
+	module Proprietaire{
+		
+		interface ProprietaireforRegistrar {
+			// notifie le client qu'un nom de domaine est sur le point d'expirer
+			oneway void DomainNameExpiration(in DomainName DomainName, in Date DateExpiration);
+		   
+		};
+	};
+
+};

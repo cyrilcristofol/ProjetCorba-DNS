@@ -49,6 +49,16 @@
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
             </COMP>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="f83382ac-11fc-4318-bdee-075905037489"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="OwnedNaryEnd">
               <OBJECT>
                 <ID name="" mc="Standard.NaryConnectorEnd" uid="c8d24ce3-2ee6-45d1-861f-d5666d8ebb91"/>
@@ -156,6 +166,9 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="80f15d44-d530-4435-a62d-390f9085acfe"/>
+              </REFOBJ>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
